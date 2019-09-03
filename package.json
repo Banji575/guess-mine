@@ -1,0 +1,29 @@
+{
+  "name": "guess-mine",
+  "version": "1.0.0",
+  "description": "Realtime Drawing Game built with socketIO, Gulp and Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Banji575/guess-mine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Banji575/guess-mine/issues"
+  },
+  "homepage": "https://github.com/Banji575/guess-mine#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1",
+    "pug": "^2.0.4",
+    "socket.io": "^2.2.0"
+  },
+  "script": {
+    "dev:server": "nodemon --exec scr/server"
+  }
+}
